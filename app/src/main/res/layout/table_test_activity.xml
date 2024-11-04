@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#242424"
+    android:stretchColumns="1"
+    >
+
+    <TextView
+        android:layout_height="50dp"
+        android:background="#949295"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Hello TableLayout"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TableRow>
+        <TextView
+            android:text="@string/table_layout_4_open"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:textSize="20dp"
+            android:text="@string/table_layout_4_open_shortcut"
+            android:textColor="@color/colorWhite"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/table_layout_4_save"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:textSize="20dp"
+            android:text="@string/table_layout_4_crls"
+            android:textColor="@color/colorWhite"
+
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/table_layout_4_saveas"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+
+            />
+
+        <TextView
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textSize="20dp"
+            android:text="@string/table_layout_4_crlso"
+            android:textColor="@color/colorWhite"
+            />
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC" />
+
+    <TableRow>
+
+        <TextView
+            android:paddingTop="8dp"
+            android:textSize="20dp"
+android:paddingLeft="5dp"
+            android:text="X  Import..."
+
+            android:textColor="@color/colorWhite" />
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+
+            android:text="X  Export..."
+            android:paddingLeft="5dp"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:text="Ctrl-E"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+
+            />
+
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC" />
+
+    <TableRow>
+        <TextView
+                android:text="Quit"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"/>
+
+    </TableRow>
+
+</TableLayout>

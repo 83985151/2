@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="table_layout_4_open" >Open...</string>
+    <string name="table_layout_4_open_shortcut" >Ctrl-O</string>
+    <string name="table_layout_4_save" >Save...</string>
+    <string name="table_layout_4_crls" >Ctrl-S</string>
+    <string name="table_layout_4_saveas" >Save As...</string>
+    <string name="table_layout_4_crlso" >Ctrl-Shift-S</string>
+    <string name="table_layout_4_import" >X                            Import...</string>
+
+
+    <string name="title_activity_list">List Activity</string>
+
+</resources>

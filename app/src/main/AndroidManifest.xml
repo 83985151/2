@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication3"
+        tools:targetApi="31">
+        <activity
+            android:name=".SlideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 声明 DialogActivity -->
+        <activity
+            android:name=".DialogActivity"
+            android:exported="true">
+            <!-- 如果 DialogActivity 是入口点，则添加以下 intent-filter -->
+            <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
+
+
+
+
+        <activity
+            android:name=".MenuActivity"
+            android:theme="@style/AppTheme"
+            android:exported="true">
+        </activity>
+
+
+        <!-- 声明 MenuActivity -->
+
+
+        <activity
+            android:name=".ListActivity"
+            android:exported="true"
+            android:label="@string/title_activity_list" > <!-- 您可以使用自己的活动标签 -->
+            <!-- 如果这是主活动，您也可以添加以下 intent 过滤器 -->
+            <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".thActivity"
+            android:exported="true"
+            android:label="@string/title_activity_list"
+            > <!-- 您可以使用自己的活动标签 -->
+            <!-- 如果这是主活动，您也可以添加以下 intent 过滤器 -->
+            <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
+
+    </application>
+
+</manifest>

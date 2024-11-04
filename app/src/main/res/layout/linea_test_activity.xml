@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/textbox_border"
+            android:padding="10dp"
+            android:text="One,One"
+            android:textColor="#7f7f7f" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/textbox_border"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="       One,Two         "
+            android:textColor="#7f7f7f" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/textbox_border"
+            android:padding="10dp"
+            android:text="One,Three"
+            android:textColor="#7f7f7f" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/textbox_border"
+            android:padding="10dp"
+            android:text="One,Four"
+            android:textColor="#7f7f7f" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/textbox_border"
+            android:padding="10dp"
+            android:text="Two,One"
+            android:textColor="#7f7f7f" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/textbox_border"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="       Two,Two         "
+            android:textColor="#7f7f7f" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/textbox_border"
+            android:padding="10dp"
+            android:text="Two,Three"
+            android:textColor="#7f7f7f" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/textbox_border"
+            android:padding="10dp"
+            android:text="Two,Four"
+            android:textColor="#7f7f7f" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/textbox_border"
+            android:padding="10dp"
+            android:text="Three,One"
+            android:textColor="#7f7f7f" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/textbox_border"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Three,Two"
+            android:textColor="#7f7f7f" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/textbox_border"
+            android:padding="10dp"
+            android:text="Three,Three"
+            android:textColor="#7f7f7f" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/textbox_border"
+            android:padding="10dp"
+            android:text="Three,Four"
+            android:textColor="#7f7f7f" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/textbox_border"
+            android:padding="10dp"
+            android:text="Four,One"
+            android:textColor="#7f7f7f" />
+
+        <TextView
+            android:layout_width="17dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/textbox_border"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="  Four,Two  "
+            android:textColor="#7f7f7f" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/textbox_border"
+            android:padding="10dp"
+            android:text="  Four,Three  "
+            android:textColor="#7f7f7f" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/textbox_border"
+            android:padding="10dp"
+            android:text="Four,Four"
+            android:textColor="#7f7f7f" />
+    </LinearLayout>
+
+</LinearLayout>
